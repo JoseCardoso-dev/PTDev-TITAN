@@ -1,0 +1,195 @@
+
+/* Resolution Level 1 */
+#pond {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Resolution Level 2 */
+#pond {
+  display: flex;
+  justify-content: center;
+}
+
+/* Resolution Level 3 */
+#pond {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Resolution Level 4 */
+#pond {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Resolution Level 5 */
+#pond {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Resolution Level 6 */
+
+#pond {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Resolution Level 7 */
+
+#pond {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+/* Resolution Level 8 */
+
+#pond {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* Resolution Level 9 */
+
+#pond {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Resolution Level 10 */
+
+#pond {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+/* Resolution Level 11 */
+
+#pond {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* Resolution Level 12 */
+
+#pond {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+/* Resolution Level 13 */
+
+#pond {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+/* Resolution Level 14 */
+
+#pond {
+  display: flex;
+}
+
+.yellow {
+  order: 1;
+}
+
+/* Resolution Level 15 */
+
+#pond {
+  display: flex;
+}
+
+.red {
+  order: -3;
+}
+
+/* Resolution Level 16 */
+
+#pond {
+  display: flex;
+  align-items: flex-start;
+}
+
+.yellow {
+  align-self: flex-end;
+}
+
+/* Resolution Level 17 */
+
+#pond {
+  display: flex;
+  align-items: flex-start;
+}
+
+.yellow {
+  order: 1;
+  align-self: flex-end;
+}
+
+/* Resolution Level 18 */
+
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Resolution Level 19 */
+
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/* Resolution Level 20 */
+
+#pond {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+/* Resolution Level 21 */
+
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+/* Resolution Level 22 */
+
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+/* Resolution Level 23 */
+
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  align-content: center;
+}
+
+/* Resolution Level 24 */
+
+#pond {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-content: space-between;
+}
+
+/* Referência: https://flexboxfroggy.com/ */
