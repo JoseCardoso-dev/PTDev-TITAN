@@ -6,7 +6,7 @@ Esté diretorio está destinado para hospedar os desafios que foram sobmetido a 
 
 ### Desafio: Social Tree
 
-Neste desafio você deve criar uma página com uma lista de links que pode ser usada em perfis de redes sociais.
+Neste desafio foi criado uma página com uma lista de links que pode ser usada em perfis de redes sociais.
 
 #### Visualização:
 
