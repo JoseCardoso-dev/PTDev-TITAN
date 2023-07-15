@@ -3,6 +3,7 @@
     --text-color: #837E9F;
     --bg-cards: #302F3D;
     --bg-techs: #CB92B1;
+    --borde-img-perfil: #32a80e;
     font-size: 18px;
 }
 
@@ -41,11 +42,42 @@ aside article{
 }
 
 .perfil{
-    height: 300px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    gap: 0.5em;
 }
 
-.redes-sociais{
+.img-perfil {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    border: solid 3px var(--borde-img-perfil);
+}
+
+.redes-sociais {
     height: 348px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.7em;
+    padding-left: 10%;
+}
+
+.icon-container{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.redes-sociais .icon-container svg{
+    width: 30px;
+    height: 30px;
+    margin-right: 10%;
 }
 
 .tecnologias{
@@ -92,3 +124,5 @@ section article{
     align-items: center;
     height: 50px;
 }
+
+
