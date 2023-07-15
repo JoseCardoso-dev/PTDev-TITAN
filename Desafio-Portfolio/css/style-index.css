@@ -13,6 +13,8 @@
 }
 
 body{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
     width: 100vw;
     display: flex;
     background-color: var(--body-bg-color);
@@ -71,7 +73,7 @@ aside article{
 .icon-container{
     display: flex;
     align-items: center;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .redes-sociais .icon-container svg{
@@ -82,10 +84,56 @@ aside article{
 
 .tecnologias{
     height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tecnologias table {
+    border-spacing: 10px; 
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.title-content{
+    margin-bottom: 5%;
+    padding-left: 7%;
+}
+
+.tecnologias th{
+    gap: 2%;
+}
+
+.tecnologias td{
+    text-align: center;
+    font-size: 14px;
+    padding: 0.2em;
+    font-weight: 700;
+    border-radius: 1em;
+    background-color: var(--bg-techs);
+    color: var(--body-bg-color);
 }
 
 .experiencias{
-    height: 350px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.experiencias ul{
+    margin-left: 10%;
+    font-size: 15px;
+}
+
+.experiencias li{
+    font-weight: 700;
+}
+
+.experiencias p{
+    margin-bottom: 5%;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .educacao{
