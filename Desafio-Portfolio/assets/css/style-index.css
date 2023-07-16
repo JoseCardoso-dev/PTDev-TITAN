@@ -106,3 +106,41 @@ article{
     align-items: center;
     gap: 0.6em;
 }
+
+.section-posts{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 2em;
+    padding: 2.5%;
+    border-radius: 1.5em;
+    margin-top: 3%;
+}
+
+.section-posts img{
+    grid-column: 1;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.content-post{
+    grid-column: 2;
+}
+
+.tags{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.title-post{
+    margin-bottom: 2%;
+    font-size: 16px;
+}
+
+.title-post span{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
