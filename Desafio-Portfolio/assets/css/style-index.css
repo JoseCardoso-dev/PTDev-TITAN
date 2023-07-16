@@ -110,6 +110,7 @@ article{
 .section-posts{
     display: grid;
     grid-template-columns: auto 1fr;
+    align-items: center;
     grid-gap: 2em;
     padding: 2.5%;
     border-radius: 1.5em;
@@ -132,7 +133,7 @@ article{
 .tags{
     display: flex;
     flex-direction: row;
-    gap: 2em;
+    gap: 5%;
 }
 
 .title-post{
@@ -144,3 +145,46 @@ article{
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
+@media (max-width: 420px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    aside {
+        width: 100%;
+        padding: 6%;
+    }
+
+    main{
+        width: 100%;
+        padding: 6%;
+    }
+
+    .section-project {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .title-container{
+        font-size: 14px;
+        padding: 5%;
+    }
+
+    .section-posts img{
+        display: none;
+    }
+
+    .section-posts{
+        display: flex;
+        grid-gap: 0;
+        font-size: 60%;
+    }
+
+    .section-posts .title-post{
+        font-size: 99%;
+    }
+
+
+}
+

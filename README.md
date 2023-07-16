@@ -13,12 +13,15 @@ Neste desafio foi criado uma página com uma lista de links que pode ser usada e
 
 ##### Modo Desktop
 
-![alt text](./Desafio-Social_Tree/assets/view-project/view_desktop.png)
-
+<p align="center">
+  <img src="./Desafio-Social_Tree/assets/view-project/view_desktop.png">
+</p>
 
 ##### Modo Mobile
 
-![alt text](./Desafio-Social_Tree/assets/view-project/viwe_mobile.png)
+<p align="center">
+  <img src="./Desafio-Social_Tree/assets/view-project/view_mobile.png">
+</p>
 
 ***
 
@@ -30,5 +33,12 @@ Neste desafio foi criado uma página para ser um portifolio, contendo varios dad
 
 ##### Modo Desktop
 
-![alt text](./Desafio-Portfolio/assets/img/view-project/modo-desktop.png)
+<p align="center">
+  <img src="./Desafio-Portfolio/assets/img/view-project/modo-desktop.png">
+</p>
 
+##### Modo Mobile
+
+<p align="center">
+  <img src="./Desafio-Portfolio/assets/img/view-project/modo-mobile.png">
+</p>
