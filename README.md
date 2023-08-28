@@ -43,6 +43,8 @@ Neste desafio foi criado uma página para ser um portifolio, contendo varios dad
   <img src="./Desafio-Portfolio/assets/img/view-project/modo-mobile.png">
 </p>
 
+***
+
 ### Desafio: Login Form CSS
 
 Neste desafio foi criado uma página para ser uma tela de login, contendo os inputs básicos para login e uma imagem.
