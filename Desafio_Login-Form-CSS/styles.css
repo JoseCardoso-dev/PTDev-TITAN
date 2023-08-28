@@ -1,0 +1,146 @@
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--text-title);
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: end;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    background: var(--background);
+    height: 75%;
+    width: 75%;
+    flex-direction: row;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    font-size: 12px;
+}
+
+.login {
+    width: 50%;
+}
+
+.logo-img {
+    width: 50%;
+    border-top-right-radius: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.logo {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.logo img {
+    width: 20%;
+}
+
+.forms {
+    padding-top: 2rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    height: 90%;
+    width: 60%;
+    background-color: var(--form-background);
+    color: var(--text-base);
+    border-radius: 8px;
+}
+
+.login article {
+    margin-top: 1rem;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--text-title);
+}
+
+.title span {
+    font-size: 15px;
+    margin-left: 0.5rem;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid #707070;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+input,
+button {
+    font-size: 12px;
+    border: none;
+    outline: none;
+    background: none;
+    box-shadow: none;
+    color: var(--text-title);
+}
+
+.input img:last-child {
+    margin-left: auto;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.txt-2 {
+    margin-left: auto;
+    color: var(--primary-color);
+}
+
+.submit {
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 5px;
+    border-radius: 6px;
+    background: var(--primary-color);
+}
+
+button {
+    width: 100%;
+    height: 2rem;
+    color: #000000;
+}
+
+.txt-final {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+}
+
+.focused {
+    border-color: var(--primary-color);
+}

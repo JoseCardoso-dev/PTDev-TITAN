@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <section class="login">
+            <div class="logo">
+                <img src="./images/logo.svg" alt="">
+            </div>
+
+            <article>
+                <div class="forms">
+                    <div class="title">
+                        <img src="./images/log-in.svg" alt="">
+                        <span><strong>Faça o seu Login</strong></span>
+                    </div>
+                    <span>Entre com suas informações de cadastro.</span><br>
+                    <br><span>E-mail</span>
+                    <div id="input-mail" class="input">
+                        <img id="mail-focus" src="./images/mail-focus.svg" hidden alt="">
+                        <img id="mail" src="./images/mail.svg" alt="">
+                        <input id="email" type="email" placeholder="Digite o seu e-mail...">
+                    </div>
+
+                    <span>Senha</span>
+                    <div id="input-pwd" class="input">
+                        <div>
+                            <img id="lock-focus" src="./images/lock-focus.svg" hidden alt="">
+                            <img id="lock" src="./images/lock.svg" alt="">
+                        </div>
+
+                        <input id="pwd" type="password" placeholder="Digite a sua senha...">
+                        <img src="./images/eye.svg" alt="">
+                    </div>
+
+                    <div class="checkbox">
+                        <input type="checkbox">
+                        <span>Lembre-me</span>
+                        <span class="txt-2">Esqueci a minha senha</span>
+                    </div>
+
+                    <div class="submit">
+                        <button>ENTRAR</button>
+                    </div>
+                    <div class="txt-final">
+                        <span>Não tem uma conta? <strong>Registre-se</strong> </span>
+                    </div>
+
+                </div>
+            </article>
+        </section>
+
+        <img class="logo-img" src="./images/side-image-2x.jpg" alt="">
+
+    </main>
+</body>
+
+<script>
+    const inputContainer = document.getElementById('input-mail');
+    const emailInput = document.getElementById('email');
+    const mailFocusImg = document.getElementById('mail-focus');
+    const mailImg = document.getElementById('mail');
+
+    emailInput.addEventListener('focus', () => {
+        mailFocusImg.removeAttribute('hidden');
+        mailImg.setAttribute('hidden', '');
+        inputContainer.classList.add('focused');
+    });
+
+    emailInput.addEventListener('blur', () => {
+        mailFocusImg.setAttribute('hidden', '');
+        mailImg.removeAttribute('hidden');
+        inputContainer.classList.remove('focused');
+    });
+</script>
+
+<script>
+    const inputPwdContainer = document.getElementById('input-pwd');
+    const pwdInput = document.getElementById('pwd');
+    const lockFocusImg = document.getElementById('lock-focus');
+    const lockImg = document.getElementById('lock');
+
+    pwdInput.addEventListener('focus', () => {
+        lockFocusImg.removeAttribute('hidden');
+        lockImg.setAttribute('hidden', '');
+        inputPwdContainer.classList.add('focused');
+    });
+
+    pwdInput.addEventListener('blur', () => {
+        lockFocusImg.setAttribute('hidden', '');
+        lockImg.removeAttribute('hidden');
+        inputPwdContainer.classList.remove('focused');
+    });
+</script>
+
+</html>
