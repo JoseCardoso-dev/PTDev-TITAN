@@ -5,3 +5,8 @@ Desafio_3/package.json
 Desafio_4/node_modules
 Desafio_4/package-lock.json
 Desafio_4/package.json
+
+tnt_news_back/node_modules
+tnt_news_back/prisma/dev.db
+tnt_news_back/prisma/dev.db-journal
+tnt_news_back/.env
